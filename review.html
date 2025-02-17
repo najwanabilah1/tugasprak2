@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirim Review</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Review Drama</h1>
+        <nav class="navbar">
+            <div class="logo">Drakor Corner</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="drama.html">Kumpulan Drakor</a>
+                <a href="review.html">Review</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+    </header>
+
+    <main>
+        <section class="review-form-section">
+            <form action="#" method="POST" class="review-form">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="drama">Judul Drama yang Diulas:</label>
+                    <input type="text" id="drama" name="drama"><br>
+                    <label for="rating">Rating (1-5):</label><br>
+                    <input type="number" id="rating" name="rating" min="1" max="5">
+                    <label for="ulasan">Ulasan:</label><br>
+                    <textarea id="ulasan" name="ulasan" rows="5"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Review</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Drakor Corner</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
